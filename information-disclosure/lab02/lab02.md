@@ -1,6 +1,6 @@
 # Source code disclosure via backup files
 
-## Discription
+## Description
 This lab leaks its source code via backup files in a hidden directory. To solve the lab, identify and submit the database password, which is hard-coded in the leaked source code.
 
 ## Solution
@@ -14,5 +14,5 @@ This lab leaks its source code via backup files in a hidden directory. To solve 
 
 
 
-## Conclution
+## Conclusion
 1. 

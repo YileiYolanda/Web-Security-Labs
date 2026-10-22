@@ -1,6 +1,6 @@
 # Web-Security-Labs
 
-## Discription
+## Description
 
 
 ## Solution
@@ -10,4 +10,4 @@
 ## Question
 
 
-## Conclution
+## Conclusion

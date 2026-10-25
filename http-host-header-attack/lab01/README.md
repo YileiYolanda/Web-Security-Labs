@@ -29,8 +29,10 @@ This is Carlos's password reset token, which was exposed when his browser follow
 1. Is the temp-forgot-password-token generated solely based on the username? Does the server perform any additional verification?
 No. The token is not necessarily generated from the username itself. In a typical secure password reset mechanism, the server generates a cryptographically secure, unpredictable token and associates it with a specific user account on the backend.
 The vulnerability in this lab is not caused by missing token validation. It occurs because the attacker can **obtain a valid token belonging to another user.**
+
 2. WHY does **modifying the Host header** to an arbitrary domain still successfully trigger a password reset?
 Because HTTP request headers are **client-controlled**, and attacker can modify the Host value. This lab's infrastructure still allows the request to reach the vulnerable application even when the Host header contains an **unrecognized domain**. The application also fails to **validate the Host header** before using it to generate an absolute password reset URL.
+
 3. How can the attacker steal Carlos's reset token without accessing his email inbox?
 Carlos receives the email from the legitimate application, but the link points to the attacker's server.When Carlos clicks the link, his browser automatically sends an HTTP request to the attacker-controlled domain, including the reset token in the URL. So attacker can retrieve the token from server's access logs.
 

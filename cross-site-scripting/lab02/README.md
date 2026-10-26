@@ -1,0 +1,13 @@
+# Exploiting cross-site scripting to steal cookies
+
+## Description
+This lab contains a stored XSS vulnerability in the blog comments function. A simulated victim user views all comments after they are posted. To solve the lab, exploit the vulnerability to exfiltrate the victim's session cookie, then use this cookie to impersonate the victim.
+
+## Solution
+
+![Picture](lab01-01.png)
+
+## Question
+
+
+## Conclusion

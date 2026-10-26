@@ -5,7 +5,7 @@
 
 ## Solution
 
-![Picture](./path.png)
+![Picture](lab01-01.png)
 
 ## Question
 

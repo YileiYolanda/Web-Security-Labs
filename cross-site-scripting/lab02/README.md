@@ -27,7 +27,7 @@ ps:Notice that the request body contains two cookies, while my own request conta
 This difference may be caused by different cookies being assigned to the two users, different browsing histories, or differences in cookie scope and attributes.
 The session cookie is used for session-based authentication. The exact purpose of secret cannot be determined from the captured request alone.
 
-2.What is the meaning of copying a unique Burp Collaborator payload?
+2. What is the meaning of copying a unique Burp Collaborator payload?
 Burp Collaborator is an out-of-band (OAST) testing service that records interactions with specially generated domains. The unique identifier allows Burp to associate incoming DNS, HTTP, or SMTP interactions with the corresponding test.
 In this lab, the domain acts as an exfiltration destination. When the injected JavaScript executes, it sends the victim's accessible cookies to this domain.
 

@@ -36,6 +36,10 @@ URL encoding represents characters so they can be transported in a URL. For exam
 The application normally decodes these values before processing them. If it then concatenates the decoded input into a SQL query, the SQL injection vulnerability remains.
 URL encoding is a **transport mechanism**, not a SQL injection defense.
 
+3. Why does the browser's URL **remain unchanged** after interception?
+Burp Proxy modifies the HTTP request after the browser has generated it. This does **not automatically update the browser's address bar**.
+As a result, the address bar can show the original category while the response reflects the injected value.
+
 ## Conclusion
 1. Use **parameterized queries** or **prepared statements**.
 Keep SQL structure separate from user-provided values. For example:

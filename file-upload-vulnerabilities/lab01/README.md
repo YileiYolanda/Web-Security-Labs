@@ -25,6 +25,7 @@ Notice that the response says The file avatars**/exploit.php** has been uploaded
 This time the response says The file avatars**/../exploit.php** has been uploaded. This suggests that the **encoded slash bypasses the initial check** and is subsequently decoded during server-side processing.
 6. Open the uploaded file by right-click and `open image in new tab`, it successfully go into the `file/avatars/../exploit.php` which becomes `file/exploit.php` and shows Carlos's secret.
 ![Picture](lab01-05.png)
+
 ps:we need to manually change the URL `..%2fexploit.php` to `../exploit.php`
 ![Picture](lab01-06.png)
 

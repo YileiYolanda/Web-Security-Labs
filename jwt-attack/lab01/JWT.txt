@@ -1,0 +1,11 @@
+{
+  "kid": "3b8ff5dc-f475-4d93-93cc-907a6828fb68",
+  "alg": "RS256"
+}
+
+{
+  "iss": "portswigger",
+  "exp": 1793692302,
+  "sub": "administrator"
+}
+

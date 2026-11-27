@@ -1,0 +1,13 @@
+{
+  "kid": "3b8ff5dc-f475-4d93-93cc-907a6828fb68",
+  "alg": "RS256"
+}
+
+{
+  "iss": "portswigger",
+  "exp": 1793692302,
+  "sub": "administrator"
+}
+
+
+eyJraWQiOiIzYjhmZjVkYy1mNDc1LTRkOTMtOTNjYy05MDdhNjgyOGZiNjgiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc5MzY5MjMwMiwic3ViIjoiYWRtaW5pc3RyYXRvciJ9.UKN99QRv7pwP3mhqYTUE2-WaKTQgN13zu2_ax5rupJH-BWeZD5fnT7pXQ7_ybxll7AJXywIB3_HaDlVxXCsx1WUBkT1NEoqnjHcnNPzIoXGqKA2V4tooM3mEbj_yACDYezo6y14gpBL2u9KilpaiZ8_Kly4BVRCNZEumsUEW7lgCRgltcHLxSqCd2vlKl276iQiGCaL1JyEaz9xHws2vSqsYrvyR-vemA0MHSupBYUGLsseDrKcfRWSZVx2JxbmnPkkgF_v2snSqsWtMZldssUAZnYzirgEwqqC4S2BwCGOpSgoyNSDmx-JKQ662Pw5CZLIpScGP6Alk0c8BywZhuw

